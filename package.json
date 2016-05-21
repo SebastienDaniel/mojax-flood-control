@@ -1,0 +1,40 @@
+{
+  "name": "mojax-flood-control",
+  "description": "mojax flood controller middleware",
+  "version": "1.0.0",
+  "keywords": [
+    "ajax",
+    "XMLHttpRequest",
+    "request",
+    "flood",
+    "flooding",
+    "middleware"
+  ],
+  "author": {
+    "name": "Sebastien Daniel",
+    "email": "info@sebastiendaniel.ca",
+    "url": "http://www.sebastiendaniel.ca/"
+  },
+  "bugs": {
+    "url": "https://www.github.com/SebastienDaniel/mojax-flood-control/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/SebastienDaniel/mojax-flood-control.git"
+  },
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "chai": "*",
+    "grunt": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-exec": "*",
+    "grunt-jscs": "*",
+    "mocha": "*",
+    "istanbul": "*",
+    "grunt-mocha-istanbul": "*"
+  },
+  "dependencies": {
+    "sebastiendaniel-adt": "^2.0.0"
+  }
+}
